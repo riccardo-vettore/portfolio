@@ -41,12 +41,6 @@ const StyledLinks = styled.div`
     margin-left: 15px;
     font-size: var(--fz-xs);
   }
-  
-  .language-button {
-    margin-left: 30px;
-    font-size: var(--fz-xs);
-    max-width: 20px;
-  }
 `
 
 export default StyledLinks;

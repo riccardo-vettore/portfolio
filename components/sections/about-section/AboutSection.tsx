@@ -18,7 +18,7 @@ const AboutSection = ({locale}: BaseProps) => {
             >
                 <h2 className="numbered-heading">
                     {
-                        locale === 'it' ? 'Riguardo me' : 'About me'
+                        locale === 'it' ? 'About me' : 'About me'
                     }
                 </h2>
             </Fade>
@@ -48,9 +48,9 @@ const AboutSection = ({locale}: BaseProps) => {
                                 {
                                     locale === 'it' ? (
                                         <>
-                                            Ad oggi lavoro per <a href="components/sections/about-section/AboutSection">Payoff
+                                            Attualmente lavoro per <a href="components/sections/about-section/AboutSection">Payoff
                                             S.R.L</a>,
-                                            software factory con sede a Padova, nella quale ricopro il ruolo di software
+                                            software factory con sede a Padova, dove ricopro il ruolo di software
                                             engineer.
                                         </>
                                     ) : (

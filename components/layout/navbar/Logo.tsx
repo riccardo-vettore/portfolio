@@ -10,11 +10,11 @@ const Logo = ({isHome}: LogoProps) => {
         <div className="logo" tabIndex={-1}>
             {
                 isHome ? (
-                    <a href="/pages" aria-label="home">
+                    <a href="/" aria-label="home">
                         <IconLogo/>
                     </a>
                 ) : (
-                    <Link href="/pages" aria-label="home">
+                    <Link href="/" aria-label="home">
                         <IconLogo/>
                     </Link>
                 )

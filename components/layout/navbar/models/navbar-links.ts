@@ -8,12 +8,12 @@ export interface NavbarLinks {
 export const navbarLinks: NavbarLinks[] = [
     {
         language: 'en',
-        name: 'About',
+        name: 'About me',
         url: '#about'
     },
     {
         language: 'it',
-        name: 'Riguardo me',
+        name: 'About me',
         url: '#about'
     },
     {
