@@ -34,10 +34,6 @@ const StyledLoader = styled.div<{ isMounted: boolean }>`
       margin: 0 auto;
       fill: none;
       user-select: none;
-
-      #B {
-        opacity: 0;
-      }
     }
   }
 `;
@@ -50,13 +46,15 @@ const Loader = ({finishLoading}: LoaderProps) => {
         }, 1000)
     };
     useEffect(() => {
-        const timeout = setTimeout(() => setIsMounted(true), 10);
-        animate();
+        const timeout = setTimeout(() => {
+            setIsMounted(true);
+            animate();
+        }, 10);
         return () => clearTimeout(timeout);
     }, []);
 
     return (
-        <StyledLoader className="loader" isMounted={isMounted}>
+        <StyledLoader isMounted={isMounted}>
             <div className="logo-wrapper">
                 <IconLoader/>
             </div>

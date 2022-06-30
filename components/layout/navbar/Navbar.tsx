@@ -15,7 +15,7 @@ import usePrefersReducedMotion from '../../../hooks/usePrefersReducedMotion';
 import useScrollDirection from '../../../hooks/useScrollDirection';
 import Language from './Language';
 
-export default function Navbar({isHome, loaderDelay, locale, locales}: NavbarProps) {
+const Navbar = ({isHome, loaderDelay, locale, locales}: NavbarProps) => {
     const [isMounted, setMounted] = useState(!isHome);
     const [scrolledToTop, setScrolledToTop] = useState(true);
     const scrollDirection: ScrollDirection = useScrollDirection(ScrollDirection.Down);
@@ -153,3 +153,5 @@ export default function Navbar({isHome, loaderDelay, locale, locales}: NavbarPro
         </StyledHeader>
     )
 }
+
+export default Navbar;
