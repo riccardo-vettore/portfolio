@@ -48,16 +48,14 @@ const AboutSection = ({locale}: BaseProps) => {
                                 {
                                     locale === 'it' ? (
                                         <>
-                                            Attualmente lavoro per <a href="components/sections/about-section/AboutSection">Payoff
-                                            S.R.L</a>,
+                                            Attualmente lavoro per <a href="https://payoff.it" target="_blank">Payoff S.R.L</a>,
                                             software factory con sede a Padova, dove ricopro il ruolo di software
                                             engineer.
                                         </>
                                     ) : (
                                         <>
-                                            I currently work for <a
-                                            href="components/sections/about-section/AboutSection">Payoff S.R.L</a>, a
-                                            software factory based in Padua, where I
+                                            I currently work for <a href="https://payoff.it" target="_blank">Payoff S.R.L</a>,
+                                            a software factory based in Padua, where I
                                             cover the role of a software engineer.
                                         </>
                                     )

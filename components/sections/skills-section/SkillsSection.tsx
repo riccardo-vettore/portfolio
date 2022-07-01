@@ -34,7 +34,7 @@ const SkillsSection = ({locale}: BaseProps) => {
                 }
             ],
             languages: ['JavaScript', 'TypeScript', 'HTML', 'CSS/SASS'],
-            imgUrl: '/images/fe_v2.png'
+            imgUrl: '/images/fe.png'
         },
         {
             title: 'Libraries & Frameworks',
