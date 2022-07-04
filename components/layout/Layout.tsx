@@ -9,6 +9,7 @@ import Email from './email/Email';
 import Footer from './footer/Footer';
 import {BaseProps} from './navbar/models/base-props';
 import Loader from './loader/Loader';
+import Head from 'next/head';
 
 const StyledContent = styled.div`
   display: flex;
@@ -61,6 +62,18 @@ export const Layout = ({children, locale, locales, loaderDelay, email}: LayoutPr
 
     return (
         <>
+            <Head>
+                <title>Riccardo Vettore - Software Engineer</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+                <meta name="description" content="Riccardo Vettore is a software engineer"/>
+                <meta name="image" content="https://www.riccardovettore.dev/images/logo_dark.png"/>
+
+                <meta property="og:title" content="Riccardo Vettore - Software Engineer"/>
+                <meta property="og:description" content="Riccardo Vettore is a software engineer"/>
+                <meta property="og:image" content="https://www.riccardovettore.dev/images/logo_dark.png"/>
+                <meta property="og:url" content="https://www.riccardovettore.dev"/>
+                <meta property="og:type" content="website"/>
+            </Head>
             <div id="root">
                 <ThemeProvider theme={theme}>
                     <GlobalStyles/>
