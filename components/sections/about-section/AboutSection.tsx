@@ -48,15 +48,15 @@ const AboutSection = ({locale}: BaseProps) => {
                                 {
                                     locale === 'it' ? (
                                         <>
-                                            Attualmente lavoro per <a href="https://payoff.it" target="_blank">Payoff S.R.L</a>,
-                                            software factory con sede a Padova, dove ricopro il ruolo di software
-                                            engineer.
+                                            Attualmente lavoro per <a href="https://www.lynxspa.com/it" target="_blank">Lynx S.P.A.</a> Il Gruppo Lynx è specializzato
+                                            nella progettazione e realizzazione di soluzioni digitali,
+                                            a supporto di grandi realtà operanti nel settore Utilities, Finance, Insurance e PA.
                                         </>
                                     ) : (
                                         <>
-                                            I currently work for <a href="https://payoff.it" target="_blank">Payoff S.R.L</a>,
-                                            a software factory based in Padua, where I
-                                            cover the role of a software engineer.
+                                            I currently work for <a href="https://www.lynxspa.com/en" target="_blank">Lynx S.P.A.</a> The Lynx Group specialises
+                                            in the design and implementation of digital solutions,
+                                            supporting large organisations operating in the Utilities, Finance, Insurance, and PA sectors.
                                         </>
                                     )
                                 }
