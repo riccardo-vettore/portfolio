@@ -48,15 +48,12 @@ const AboutSection = ({locale}: BaseProps) => {
                                 {
                                     locale === 'it' ? (
                                         <>
-                                            Attualmente lavoro per <a href="https://www.lynxspa.com/it" target="_blank">Lynx S.P.A.</a> Il Gruppo Lynx è specializzato
-                                            nella progettazione e realizzazione di soluzioni digitali,
-                                            a supporto di grandi realtà operanti nel settore Utilities, Finance, Insurance e PA.
+                                            Attualmente lavoro per <a href="https://www.thron.com/it" target="_blank">Thron S.P.A.</a> punto di riferimento per la trasformazione digitale dei processi di marketing dei brand più importanti al mondo.
+
                                         </>
                                     ) : (
                                         <>
-                                            I currently work for <a href="https://www.lynxspa.com/en" target="_blank">Lynx S.P.A.</a> The Lynx Group specialises
-                                            in the design and implementation of digital solutions,
-                                            supporting large organisations operating in the Utilities, Finance, Insurance, and PA sectors.
+                                            I currently work for <a href="https://www.thron.com/en" target="_blank">Thron S.P.A.</a> Thron is the world’s top brands’ partner of choice for the digital transformation of marketing processes.
                                         </>
                                     )
                                 }
